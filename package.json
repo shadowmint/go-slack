@@ -1,0 +1,27 @@
+{
+  "name": "go-slack",
+  "version": "0.0.1",
+  "description": "This is an NPM compatible fork of https://github.com/nlopes/slack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlopes/slack.git"
+  },
+  "files": [
+    "*.go",
+    "scripts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlopes/slack/issues"
+  },
+  "homepage": "https://github.com/nlopes/slack",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
